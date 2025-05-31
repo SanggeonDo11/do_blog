@@ -7,7 +7,7 @@ st.title("공기업 취업을 향한 여정",)
 st.caption("자기 성장을 위한 탐색 및 선택")
 
 # 탭 구성
-tabs = st.tabs(["📌 관심사", "🌍 관심 분야", "🏥 관심 기업", "🎥 병원 소개 영상", "🎯 앞으로의 다짐"])
+tabs = st.tabs(["📌 관심사", "🌍 관심 분야", "🏥 관심 기업", "🎥 병원 소개 영상", "🎯 앞으로의 목표"])
 
 # 관심사
 with tabs[0]:
@@ -111,9 +111,9 @@ with tabs[3]:
     st.subheader("🎥 분당서울대병원 소개 영상")
     st.video("https://youtu.be/hVCFIfT6ze0?si=HkWRpoQQmBdZPOVj")
 
-# 앞으로의 다짐
+# 앞으로의 목표
 with tabs[4]:
-    st.subheader("🎯 앞으로의 다짐")
+    st.subheader("🎯 앞으로의 목표")
     st.markdown("""
 저는 단순히 안정적인 직장을 얻는 데 그치지 않고,  
 **제 가치관과 맞닿은 길을 따라 의미 있는 성장**을 이어가고 싶습니다.
